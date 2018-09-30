@@ -56,7 +56,7 @@ for key,value in fdist.items():
     for word in start:
         if(key==word):
             count= count+ value
-#print(count)
+
 fdist["<start>"] = count
 
 #add end to freqdist
@@ -76,11 +76,9 @@ for key, value in fdist.items():
     fdist2[key] = value
 
 #create probability distribution
-
-probdist={}
+probdist = {}
 for key,value in fdist2.items():
     probdist[key]=value/len(tokens)
-
 #probdist 
 
 # create normal prob dist
@@ -138,7 +136,6 @@ for i in range(0, len( tokens)-(n-2)):
     i=i+1
 
 freq_dist_Ngram = FreqDist(gram)
-# print(freq_dist_Ngram)
 
 #for claculating the probalities
 
