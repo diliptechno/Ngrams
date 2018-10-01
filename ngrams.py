@@ -121,10 +121,13 @@ for key,value in fdist2.items():
 #
 #     print(line)
 
-#tokens for trigram n=4
 
+
+
+#tokens for trigram n=4
 gram = []
 n = ngrams
+
 for i in range(0, len( tokens)-(n-2)):
     x = ""
     for j in range(0, n-1):
