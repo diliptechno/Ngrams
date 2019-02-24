@@ -1,7 +1,9 @@
 # Ngrams 
 # Random sentence generations from N-grams using probabilty.
 Natural Language processing
+
 team - Evil Geniuses 
+
 Professor - Ozlem Uzuner
 
 Given a text file and the and the size of the N-grams (n = 1, 2, 3....) the program will generate the Random sentences by combining the various tokens from the trained data.
